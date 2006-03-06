@@ -1,0 +1,157 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0046)http://www.eclipse.org/tools/gef-proposal.html -->
+<HTML><HEAD><TITLE>eclipse.org tools PMC - GEF Project Proposal</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1"><LINK 
+href="http://www.eclipse.org/default_style.css" type=text/css rel=stylesheet>
+<META content="Microsoft FrontPage 5.0" name=GENERATOR></HEAD>
+<BODY>
+<TABLE cellSpacing=5 cellPadding=2 width="100%" border=0>
+  <TBODY> 
+  <tr> 
+    <TD align=left width="60%" height="102"> 
+      <p><font class="indextop" size="+2">Eclipse Tools GEF Proposal</font><font size="+2"><BR>
+        <FONT 
+      class=indexsub>graphical editor framework - tools subproject</FONT></font></p>
+      </TD>
+    <TD width="40%" height="102"><img SRC="http://dev.eclipse.org/images/Idea.jpg" HSPACE=50 height=86 width=120 align=CENTER></TD>
+  </tr>
+  <TR> 
+    <TD colspan="2"> 
+      <H2><B><BR>
+        Description</B></H2>
+      <P>The Graphical Editor Framework (GEF) allows developers to take an existing 
+        application model and easily create a rich graphical editor.&nbsp;GEF 
+        allows a developer to quickly map any existing model to a graphical editing 
+        environment. The graphical environment is the SWT-based drawing plugin 
+        "draw2d" (which is part of the overall "GEF" component). The developer 
+        can take advantage of the many common operations provided in GEF and/or 
+        extend them for the specific domain. GEF is suitable for creating a wide 
+        variety of applications, including: flow builders, GUI builders, UML diagram 
+        editors (such as work-flow and class modeling diagrams), and even WYSIWYG 
+        text editors like HTML. GEF does not assume that you must build one of 
+        these applications and is application domain neutral.</P>
+      <P> Check out the sample application <a href="gefcapture.gif"> screenshot</a>. 
+      </P>
+      <P>GEF is divided into two plugins: GEF, and draw2d.</P>
+      <H3><SPAN style="FONT-WEIGHT: 400">Draw2d</SPAN></H3>
+      <BLOCKQUOTE> 
+        <P>The <B>draw2d</B> plug-in provides a standalone rendering and layout 
+          package for an SWT Canvas.&nbsp; It includes common shapes and layouts 
+          that can be assembled to render almost anything.</P>
+        <P><B>Features:</B></P>
+        <UL>
+          <LI>Double buffered painting and optimized layouts
+          <LI>Various Figure and Layouts implementations
+          <LI>Simple event routing to figures (mouse and keyboard)
+          <LI>Border support on figures
+          <LI>Cursor and tooltip support
+          <LI>Connection anchoring, routing and decorating
+          <LI>Multiple layers
+          <LI>Flexible coordinate systems
+          <LI>Overview window (thumbnail with scrolling)</LI>
+        </UL>
+      </BLOCKQUOTE>
+      <H3><SPAN style="FONT-WEIGHT: 400">GEF</SPAN></H3>
+      <BLOCKQUOTE> 
+        <P>The GEF plug-in uses draw2d for rendering, but adds a rich MVC editing 
+          framework on top of it.&nbsp; This framework helps ensure that most 
+          graphical applications look and behave in a similar way.</P>
+        <P>We are looking for contributors who are familiar with graphical editing, 
+          including: laying-out "nodes", routing "connections", UI interaction, 
+          accessibility, zoom, printing, etc.&nbsp; We are also looking for clients 
+          who can help debug and stress the code on different Eclipse platforms 
+          and locales.</P>
+        <P><B>Features</B>:</P>
+        <UL>
+          <LI>Tools like Selection, Creation, Connection and Marquee tools
+          <LI>A Palette for displaying those tools
+          <LI>Handles for resizing objects and bending connections
+          <LI>Two types of GEF Viewers (Graphical and Tree)
+          <LI> A Controller framework for mapping the business Model to a View 
+            <UL>
+              <LI>Plug-in policies for mapping interactions with the view to changes 
+                in the model
+              <LI>Various implementations for showing feedback and adding selection 
+                handles
+              <LI>Various request types and tools or actions that send these requests 
+                to the controllers</LI>
+            </UL>
+          <LI>Undo/Redo support via Commands and a CommandStack</LI>
+        </UL>
+      </BLOCKQUOTE>
+      <H3><SPAN style="FONT-WEIGHT: 400">People</SPAN></H3>
+      <BLOCKQUOTE> 
+        <P>GEF was developed by Randy Hudson (hudsonr <B>at</B> us.ibm.com) and 
+          others at IBM.&nbsp; Randy is the proposed lead for the GEF subproject. 
+          He is currently looking for people who would like to help on this project. 
+        </P>
+      </BLOCKQUOTE>
+      <H3><SPAN style="FONT-WEIGHT: 400">Status</SPAN></H3>
+      <BLOCKQUOTE> 
+        <P>GEF is being used in several existing commercial products. The API 
+          is stable, but we have not claimed binary compatibility with future 
+          major releases like the Eclipse Platform.</P>
+      </BLOCKQUOTE>
+      <H3><SPAN style="FONT-WEIGHT: 400">Platforms</SPAN></H3>
+      <BLOCKQUOTE> 
+        <P>The plugins are written in Java with no native code and thus may be 
+          ported to any platform supported by Eclipse.</P>
+      </BLOCKQUOTE>
+      <H3><SPAN style="FONT-WEIGHT: 400">Content</SPAN></H3>
+      <BLOCKQUOTE> 
+        <P>5 plugins are included:</P>
+        <UL>
+          <LI>com.ibm.draw2d - The draw2d plug-in 
+          <LI>com.ibm.gef - The GEF plug-in (requires draw2d) 
+          <LI>com.ibm.draw2d.doc.isv - ISV integrated Help 
+          <LI>com.ibm.gef.doc.isv - ISV integrated Help 
+          <LI>com.ibm.gef.example.logic - An example that show containers, nodes, 
+            and connections. </LI>
+        </UL>
+      </BLOCKQUOTE>
+      <H3><SPAN style="FONT-WEIGHT: 400">Development plan</SPAN></H3>
+      <BLOCKQUOTE>The following line items are under current development: 
+        <UL>
+          <LI>Drag and Drop support using Delegating Drag/Drop objects. 
+          <LI>Reusing JFace CellEditors for direct edit behavior 
+          <LI>Alignment Actions (align center, bottom, left, etc.) </LI>
+        </UL>
+      </BLOCKQUOTE>
+      <BLOCKQUOTE> 
+        <P>The following items are in various stages of development and are uncommitted 
+          for the 2.0 release of Eclipse:</P>
+        <H4><SPAN style="FONT-WEIGHT: 400">Draw2d</SPAN></H4>
+        <UL>
+          <LI>Zoom support 
+          <LI>Negative scrolling/scrolling based on connection bendpoints 
+          <LI>Rich Text figures/Wrapping labels 
+          <LI>Enhanced connection routing 
+          <LI>Focus traversal/Accessibility 
+          <LI>Overview window background updating. 
+          <LI>Enhanced connection routing (automatic collision avoidance) 
+          <LI>Context menu support </LI>
+        </UL>
+      </BLOCKQUOTE>
+      <BLOCKQUOTE> 
+        <H4><SPAN style="FONT-WEIGHT: 400">GEF</SPAN></H4>
+        <UL>
+          <LI>Constrained Resize (e.g. holding down the Shift and/or Control key) 
+          <LI>AutoScroll during Tool and DND interactions 
+          <LI>Palette UI changes 
+          <LI>Snap-to-geometry 
+          <LI>Guide support 
+          <LI>Print support </LI>
+        </UL>
+      </BLOCKQUOTE>
+      <P><BR>
+      </P>
+    </TD>
+  </TR>
+  <TR> 
+    <TD colspan="2">&nbsp; </TD>
+  </TR>
+  </TBODY> 
+</TABLE>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P></BODY></HTML>

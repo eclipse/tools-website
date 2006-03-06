@@ -1,0 +1,80 @@
+ 
+<p align="center"><b><font size="+2">IDE Implementors Technology Exchange</font></b></p>
+<p align="center">EclipseCon 2004</p>
+<p align="center"></p>
+<p align="center"> Feb 2-5 Anaheim, California</p>
+<p align="center">Tuesday, 5-6 pm, Location: TBD</p>
+<p align="center">John Duimovich, Tools PMC Lead </p>
+<p><b>Outline</b></p>
+<p>The IDE implementors technology exchange is intended for people who are writing 
+  programming language IDEs on top of the eclipse platform. Java, C/C++, Smalltalk, 
+  Python, Ruby, Scheme, Pascal or any other language! Come to this working session 
+  to discuss the common issues in writing language IDEs. If you have written an 
+  eclipse plug-in for your favorite language or even if you plan to write one 
+  and want to talk to others who have done it, this session is for you.<br>
+</p>
+<p><b>Session</b></p>
+<p>The session will have 4-5 speakers who will present a short overview of their 
+  respective IDEs. Each presenter has been asked to fill in a short feature status 
+  sheet to get us started in discussion common issues, and shared technology. 
+  The goal of this session will be to start a dialog in how we could pursue more 
+  sharing of technology in building IDEs. In past ad-hoc discussions with various 
+  IDE implementors and eclipse developers, we have speculated about some common 
+  language IDE features which could be used to support many additional languages 
+  IDEs on eclipse. This in turn would foster interest in improving these IDEs 
+  with feature and performance enhancements and tighter levels of integration 
+  with Eclipse. </p>
+<p>Without pre-judging the session, some ideas on common technologies for IDEs 
+  have included</p>
+<p>a) common debugger for compiled languages (C/C++, Fortran, Cobol, Ada)</p>
+<p>b) common utilities for parsers (including partial/incorrect code parsers), 
+  indexers (with persistance) for searching</p>
+<p>c) common target descriptions (embedded to server) such that IDE implementors, 
+  program launchers (local and remote)</p>
+<p>d) utilties for basic integrations (token based syntax colorer, non-context 
+  sensitive code assist, consoles and process control, </p>
+<p><b>Participants</b></p>
+<p>John Duimovich, Smalltalk IDE</p>
+<p>Dan Shaefer, Eclipse CDT, C/C++ IDE</p>
+<p>(To be confirmed) Michael Scharf, WindRiver, Programming Language Agnostic 
+  IDEs</p>
+<p>Martin Aeschlimann, Eclipse JDT, Java IDE</p>
+<p><i>Person TBD - Scripting or Agile Language IDE</i></p>
+<p><b>IDE Implementors Questionaire. </b></p>
+<p>There are many possible levels of integration with Eclipse. The simplest integration 
+  is to use Eclipse as your edit, compile, run (and possibly debug) system. The 
+  next level is to create some type of program model (parse source) so that you 
+  can implement language aware functionality. As the integration becomes more 
+  advanced, the opportunities become richer and features like program manipulation 
+  (refactoring, code generation, full round trip support for code generation systems 
+  that use programming languages as their intermediate language).</p>
+<p>For simplicity, I decided to describe IDEs in terms of levels of integration 
+  with eclipse. </p>
+<p>1) Editor Level Integration - Basic Integration (Level 0)</p>
+<p>Functions supported: Text editor for source files, external compiler, compile 
+  errors parser into markers, launch external debugger, token based syntax coloring</p>
+<p>b) Language Aware Integration - (Level 1)</p>
+<p>Function Supported - outline view, hierarchy/structure view, syntax based coloring, 
+  code assist, structured search (references, declarations), structured compare. 
+  Eclipse debugger support. </p>
+<p>c) Advanced Language Aware Integration - (Level 2)</p>
+<p>Functions supported: refactoring, quick fix, intentional programming (type 
+  inferencing), DOM for language and extension to these tools,</p>
+<p>d) Uber-Integration - JDT class integration (Level 3,4,5)</p>
+<p>Functions Supported: all of the above and more. Continued innovation in IDE 
+  technology. </p>
+<p><b>Feature Survey</b></p>
+<p>I would like everyone to fill in a feature / implementation sheet. The current 
+  set of categories is incomplete however itis a start. If you come up with new 
+  items, we can add to the list and fill out a IDE comparison grid.</p>
+<p>Here is an <a href="features.xls">excel spread sheet</a> with some data I made 
+  up about theprojects. As we get new categories, we can update the various information 
+  about the IDEs. </p>
+<p><b>Other IDE implementation items we could discuss during this session</b></p>
+<p>1) Performance Tools</p>
+<p>2) Test Tools</p>
+<p>3) Modelling</p>
+<p><b>See you all in Anaheim.</b></p>
+<p><br>
+</p>
+<p>&nbsp;</p>

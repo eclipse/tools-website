@@ -1,0 +1,561 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./cobol-proposal_files/filelist.xml">
+<link rel=Edit-Time-Data href="./cobol-proposal_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>COBOL IDE Project</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Ronald S. Alepin</o:Author>
+  <o:LastAuthor>JohnD</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>116</o:TotalTime>
+  <o:Created>2002-09-06T22:58:00Z</o:Created>
+  <o:LastSaved>2002-09-06T22:58:00Z</o:LastSaved>
+  <o:Pages>4</o:Pages>
+  <o:Words>710</o:Words>
+  <o:Characters>4052</o:Characters>
+  <o:Company>LASR Inc.</o:Company>
+  <o:Lines>33</o:Lines>
+  <o:Paragraphs>8</o:Paragraphs>
+  <o:CharactersWithSpaces>4976</o:CharactersWithSpaces>
+  <o:Version>9.4402</o:Version>
+ </o:DocumentProperties>
+ <o:CustomDocumentProperties>
+  <o:_AdHocReviewCycleID dt:dt="float">2070304127</o:_AdHocReviewCycleID>
+  <o:_EmailSubject dt:dt="string">Eclipse Proposal</o:_EmailSubject>
+  <o:_AuthorEmailDisplayName dt:dt="string">Alepin, Ronald</o:_AuthorEmailDisplayName>
+  <o:_PreviousAdHocReviewCycleID dt:dt="float">-1617411983</o:_PreviousAdHocReviewCycleID>
+ </o:CustomDocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:DoNotShowRevisions/>
+  <w:DoNotPrintRevisions/>
+  <w:Compatibility>
+   <w:UseFELayout/>
+  </w:Compatibility>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-alt:"\FF2D\FF33 \660E\671D";
+	mso-font-charset:128;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:fixed;
+	mso-font-signature:1 134676480 16 0 131072 0;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:128;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:fixed;
+	mso-font-signature:1 134676480 16 0 131072 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"MS Mincho";
+	mso-fareast-language:JA;}
+h1
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:21.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-font-kerning:18.0pt;
+	mso-fareast-language:JA;
+	font-weight:bold;}
+h2
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-line-height-alt:10.5pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-language:JA;
+	font-weight:bold;}
+h3
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:14.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-language:JA;
+	font-weight:bold;}
+h4
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-language:JA;
+	font-weight:bold;}
+h5
+	{mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:5;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-language:JA;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"MS Mincho";
+	mso-fareast-language:JA;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"MS Mincho";
+	mso-fareast-language:JA;}
+span.header1
+	{mso-style-name:header1;}
+ins
+	{mso-style-type:export-only;
+	text-decoration:none;}
+span.msoDel
+	{mso-style-type:export-only;
+	mso-style-name:"";
+	text-decoration:line-through;
+	display:none;
+	color:red;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:652489086;
+	mso-list-template-ids:-859270590;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l1
+	{mso-list-id:1139614610;
+	mso-list-template-ids:-1122437352;}
+@list l2
+	{mso-list-id:1832984821;
+	mso-list-template-ids:1019658416;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1028"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<table border=0 cellspacing=5 cellpadding=0 width="100%" style='width:100.0%;
+ mso-cellspacing:3.7pt;mso-padding-alt:1.5pt 1.5pt 1.5pt 1.5pt'>
+ <tr>
+  <td colspan=2 valign=top style='background:#0080C0;padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+  <p class=MsoNormal><b><span style='font-size:10.0pt;font-family:Arial;
+  color:white'>Eclipse Tools COBOL IDE Subproject Proposal </span></b><span
+  style='font-size:10.0pt;font-family:Arial'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+  <p><b>Description</b></p>
+  <p>A COBOL IDE allows developers to develop COBOL applications within a
+  friendly, Eclipse-based environment, using various COBOL compilers provided
+  by COBOL vendors.</p>
+  <p>The COBOL IDE for Eclipse Subproject will build a fully functional COBOL
+  Integrated Development Environment (IDE) for the Eclipse platform.<span
+  style="mso-spacerun: yes">  </span>Our focus is COBOL application development
+  on Windows/Solaris/Linux for deployment on each platform. We are interested
+  in participation from others who would like to extend our work in other
+  directions. e.g. wizards for developing applications that use particular
+  library or database or messaging APIs, or extension to other languages.</p>
+  <p>We are proposing this code base form the initial code for the open source
+  COBOL project hosted on eclipse.org under the eclipse tools project. The
+  project goal would be the completion of a full featured COBOL environment for
+  all platforms. We are looking for contributions from the open source
+  community in the areas of testers, developers and general users who can help
+  us ensure that the COBOL tools work well on all the Eclipse platforms. </p>
+        <p>The source code for the project is available <a href="http://download.eclipse.org/tools/downloads/cobol/cobolide-0905.zip">here</a>.</p>
+  <p>Our first release function includes:</p>
+  <ul type=disc>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>UI Components<o:p></o:p></span></li>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>COBOL editor, which supports
+        all COBOL source code formats – fixed format, variable format and free
+        format<o:p></o:p></span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Dependency View, Structure
+        View and Template View<o:p></o:p></span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Creating, Closing and
+        Deleting a new project or a new file<o:p></o:p></span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Template assistance wizard<o:p></o:p></span></li>
+   </ul>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>COBOL Builder<o:p></o:p></span></li>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Target execution by
+        specifying environment variables<o:p></o:p></span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Setting compiler and linker
+        options<o:p></o:p></span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Dependency analysis<o:p></o:p></span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Other build features (Ant
+        file creation and batch build)<o:p></o:p></span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Bridge interface for
+        invoking native COBOL compiler<o:p></o:p></span></li>
+   </ul>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>COBOL Debugger<o:p></o:p></span></li>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Debugging GUI for COBOL
+        debugger<o:p></o:p></span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Setting breakpoints,
+        displaying variables and call stacks that follow the Eclipse debug
+        perspective.<o:p></o:p></span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Bridge interface for
+        invoking native COBOL debuggers<o:p></o:p></span></li>
+   </ul>
+  </ul>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+  style='font-size:10.0pt;font-family:Arial'>The bridge interface for the COBOL
+  compiler and debugger will be discussed with the contributors who will
+  support the project.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+  style='font-size:10.0pt;font-family:Arial'>Please see Appendix A for COBOL
+  IDE perspective and Appendix B for COBOL Debugger perspective. These
+  screenshots are from Fujitsu’s commercial COBOL product.<o:p></o:p></span></p>
+  <p><b>Status</b></p>
+  <p>This is a new project and the initial code base is from Fujitsu’s
+  commercial COBOL product that supports Redhat Linux 7.2, Eclipse R2.0 and
+  Fujitsu NetCOBOL 7.0.</p>
+  <p><b>Platforms</b></p>
+  <p>The plugins are written in Java with no native code and thus may be ported
+  to any platform supported by Eclipse.<span style="mso-spacerun: yes"> 
+  </span>However, the plugins invoke a COBOL compiler and debugger via a
+  bridge.<span style="mso-spacerun: yes">  </span>Therefore, the plugins work
+  only in systems where there is a COBOL compiler, debugger and a bridge for
+  them.</p>
+  <p><b>Content</b></p>
+  <p>We provide a total of six plugins and packages:</p>
+  <ol start=1 type=1>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l1 level1 lfo6;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>com.fujitsu.cbdt.build –
+       bridge for invoking platform-specific COBOL compiler<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l1 level1 lfo6;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>com.fujitsu.cbdt.core – COBOL
+       IDE core modules<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l1 level1 lfo6;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>com.fujitsu.cbdt.debug –
+       bridge for invoking platform-specific COBOL debugger<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l1 level1 lfo6;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>com.fujitsu.cbdt.debug.ui –
+       user interface for COBOL debugger<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l1 level1 lfo6;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>com.fujitsu.cbdt.help – online
+       COBOL IDE documentation<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l1 level1 lfo6;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>com.fujitsu.cbdt.ui – COBOL
+       IDE user interface modules<o:p></o:p></span></li>
+  </ol>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+  style='font-size:10.0pt;font-family:Arial'>For the contribution, the package
+  name is should be changed (e.g., org.eclipse prefix).<o:p></o:p></span></p>
+  <p><b>Development plan </b></p>
+  <p>We are supplying a separate project plan simultaneously with this
+  proposal.<span style="mso-spacerun: yes">  </span>We believe it will be
+  possible to deliver a public release in February 2003.</p>
+  <ul type=disc>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l2 level1 lfo9;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Rename our packages to use
+       the org.eclipse prefix <o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l2 level1 lfo9;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Define common bridge
+       interface for COBOL compiler and debugger<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l2 level1 lfo9;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Dependency analysis among
+       copy libraries<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l2 level1 lfo9;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Improve stability<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l2 level1 lfo9;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Internationalization support<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l2 level1 lfo9;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Other platform support
+       (Windows and Solaris)<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l2 level1 lfo9;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Support the latest version of
+       Eclipse<o:p></o:p></span></li>
+  </ul>
+  <p>We set below the features that have already been developed by Fujitsu
+  Limited.</p>
+  <ul type=disc>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>UI Components<o:p></o:p></span></li>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>COBOL editor, which supports
+        all kind of COBOL source code format – fixed format, variable format
+        and free format<o:p></o:p></span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Dependency View, Structure
+        View and Template View<o:p></o:p></span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Creating, Closing and
+        Deleting a new project or a new file<o:p></o:p></span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Template assistance wizard<o:p></o:p></span></li>
+   </ul>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>COBOL Builder<o:p></o:p></span></li>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Target execution with specifying
+        environment variables<o:p></o:p></span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Setting compiler and linker
+        options<o:p></o:p></span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Other build features (Ant
+        file creation and batch build)<o:p></o:p></span></li>
+   </ul>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>COBOL Debugger<o:p></o:p></span></li>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Debugging GUI for COBOL
+        debugger<o:p></o:p></span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo3;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Setting breakpoint,
+        displaying variables and call stacks that follow Eclipse debug
+        perspective.<o:p></o:p></span></li>
+   </ul>
+  </ul>
+  <p>If you want to contribute to the development of these plugins, we welcome
+  the opportunity to work with you. The plan will be updated to reflect the
+  commitments made by contributors to these projects. We also welcome
+  participation of other COBOL vendors who can provide bridges for their own
+  COBOL compilers and debuggers.<span class=msoDel><del cite="mailto:JohnD"
+  datetime="2002-09-06T18:50"><o:p></o:p></del></span></p>
+  <p><span class=msoDel><del cite="mailto:JohnD" datetime="2002-09-06T18:50">The
+  distribution includes a </del></span><span class=msoDel><del
+  cite="mailto:JohnD" datetime="2002-09-06T18:50"><a
+  href="http://64.38.235.23/tools/cdt/downloads/0.5.0/todo.txt">TODO</a></del></span><span
+  class=msoDel><del cite="mailto:JohnD" datetime="2002-09-06T18:50"> file that
+  contains more detail.</del></span><ins cite="mailto:JohnD"
+  datetime="2002-09-06T18:50"> </ins></p>
+  <p><b>License</b></p>
+  <p>This project is licensed under the Common Public License.</p>
+  </td>
+  <td style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+  <p style='margin:0in;margin-bottom:.0001pt'><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:"Times New Roman"'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<span style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"MS Mincho";mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:
+AR-SA'><br clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal><b>Appendix A: COBOL IDE Perspective<o:p></o:p></b></p>
+
+<p class=MsoNormal><b><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></b></p>
+
+<p class=MsoNormal><b><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:468pt;
+ height:351pt'>
+ <v:imagedata src="./cobol-proposal_files/image001.jpg" o:title="perspective"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=624 height=468
+src="./cobol-proposal_files/image002.jpg" v:shapes="_x0000_i1025"><![endif]><o:p></o:p></b></p>
+
+<b><span style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"MS Mincho";mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:
+AR-SA'><br clear=all style='page-break-before:always'>
+</span></b>
+
+<p class=MsoNormal><b>Appendix B: COBOL Debugger Perspective<o:p></o:p></b></p>
+
+<p class=MsoNormal><b><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></b></p>
+
+<p class=MsoNormal><b><!--[if gte vml 1]><v:shape id="_x0000_i1026" type="#_x0000_t75"
+ style='width:468pt;height:351pt'>
+ <v:imagedata src="./cobol-proposal_files/image003.jpg" o:title="debugger"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=624 height=468
+src="./cobol-proposal_files/image004.jpg" v:shapes="_x0000_i1026"><![endif]><o:p></o:p></b></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+</div>
+
+</body>
+
+</html>

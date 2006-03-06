@@ -1,0 +1,319 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Cobol Proposal</title>
+<link rel="stylesheet" href="../default_style.css" type="text/css">
+</head>
+<body>
+<table BORDER=0 CELLSPACING=5 CELLPADDING=2 WIDTH="100%" >
+  <tr> 
+    <td ALIGN=LEFT VALIGN=TOP COLSPAN="2" BGCOLOR="#0080C0"><b><font color="#FFFFFF">Eclipse 
+      Tools Cobol Subproject Proposal <span
+  style='font-size:10.0pt;font-family:Arial'><o:p></o:p></span></font></b><font color="#FFFFFF"><span
+  style='font-size:10.0pt;font-family:Arial'><o:p></o:p></span></font><span
+  style='font-size:10.0pt;font-family:Arial'><o:p></o:p></span></td>
+  </tr>
+  <tr> 
+    <td> 
+      <p><b>Description</b></p>
+      <p>A COBOL IDE allows developers to develop COBOL applications with in a 
+        friendly, Eclipse-based environment, using various COBOL compilers provided 
+        by COBOL vendors.</p>
+      <p>The COBOL IDE for Eclipse Subproject will build a fully functional COBOL 
+        Integrated Development Environment (IDE) for the Eclipse platform.<span style="mso-spacerun: yes">&nbsp; 
+        </span>Our focus is COBOL application development on Windows/Solaris/Linux 
+        for deployment on each platform. We are interested in participation from 
+        others who would like to extend our work in other directions. e.g. wizards 
+        for developing applications that use particular library or database or 
+        messaging APIs, or extension to other languages.</p>
+      <p>We are proposing this code base form the initial code for the open source 
+        COBOL project hosted on eclipse.org under the eclipse tools project. The 
+        project goal would be the completion of a full featured COBOL environment 
+        for all platforms. We are looking for contributions from the open source 
+        community in the areas of testers, developers and general users who can 
+        help us ensure that the COBOL tools work well on all the Eclipse platforms. 
+      </p>
+      <p>The source code for the project is is available <a href="http://download.eclipse.org/tools/downloads/cobol/cobolide-0905.zip">here</a>.</p>
+      <p>Our first release function includes:</p>
+      <ul type=disc>
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo1; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">COBOL Editor<o:p></o:p></span> 
+          <ul type=circle>
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Support usual editor features 
+              (open, close and save a file, cut/copy/paste operations, undo/redo, 
+              go to line, code formatter, input assist, and etc.)<o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Syntax coloring<o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Support for all kind of 
+              COBOL source code format – fixed format, variable format and free 
+              format <o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Displaying sequence number 
+              and auto renumbering.<o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Syntax template (insert 
+              templates in the code, export/import templates, user-defined template)<o:p></o:p></span> 
+            </li>
+          </ul>
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo1; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">COBOL Builder<o:p></o:p></span> 
+          <ul type=circle>
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Target execution with specifying 
+              environment variables<o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Setting compiler and linker 
+              options<o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Dependency analysis<o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Other build features (Ant 
+              file creation and batch build)<o:p></o:p></span> </li>
+          </ul>
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo1; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">COBOL Debugger<o:p></o:p></span> 
+          <ul type=circle>
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Debugging GUI for COBOL 
+              debugger<o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Setting breakpoint, displaying 
+              variables and call stacks that follows Eclipse debug perspective.<o:p></o:p></span> 
+            </li>
+          </ul>
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo1; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Project and Resource Management<o:p></o:p></span> 
+          <ul type=circle>
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Dependency View, Structure 
+              View and Template View<o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Creating, Closing and Deleting 
+              a new project or a new file<o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Template assistance wizard<o:p></o:p></span> 
+            </li>
+          </ul>
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo1; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Bridges for platform specific 
+          COBOL compilers and debuggers<o:p></o:p></span> 
+          <ul type=circle>
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Fujitsu COBOL, MicroFocus 
+              COBOL, Hitachi COBOL and IBM COBOL are subject to support in the 
+              first release. Subproject for each COBOL will be prepared.<o:p></o:p></span> 
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p class=MsoNormal 
+      style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto"><span 
+      style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Bridge interface for COBOL compilers 
+        and debuggers will be discussed with the contributors who will support 
+        the project.<o:p></o:p></span></p>
+      <p class=MsoNormal 
+      style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto"><span 
+      style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Please see Appendix A for COBOL 
+        IDE perspective and Appendix B for COBOL Debugger perspective. These screenshots 
+        are from Fujitsu’s commercial COBOL product.<o:p></o:p></span></p>
+      <p><b>Status</b></p>
+      <p>This is a new project and the initial code base is from Fujitsu’s commercial 
+        COBOL product that supports Redhat Linux 7.2, Eclipse R2.0 Milestone 5 
+        and Fujitsu NetCOBOL 7.0.</p>
+      <p><b>Platforms</b></p>
+      <p>The plugins are written in Java with no native code and thus may be ported 
+        to any platform supported by Eclipse.<span 
+      style="mso-spacerun: yes">&nbsp; </span>However, the plugins invoke a COBOL 
+        compiler and debugger via a bridge. <span 
+      style="mso-spacerun: yes">&nbsp;</span>Therefore, the plugins work only 
+        in systems where there is a COBOL compiler, debugger and a bridge for 
+        them.</p>
+      <p><b>Content</b></p>
+      <p>We provide a total of six plugins and packages:</p>
+      <ol type=1>
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 level1 lfo2; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">com.fujitsu.cbdt.build – bridge 
+          for invoking platform-specific COBOL compiler<o:p></o:p></span> 
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 level1 lfo2; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">com.fujitsu.cbdt.core – COBOL 
+          IDE core modules<o:p></o:p></span> 
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 level1 lfo2; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">com.fujitsu.cbdt.debug – bridge 
+          for invoking platform-specific COBOL debugger<o:p></o:p></span> 
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 level1 lfo2; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">com.fujitsu.cbdt.debug.ui 
+          – user interface for COBOL debugger<o:p></o:p></span> 
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 level1 lfo2; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">com.fujitsu.cbdt.help – online 
+          COBOL IDE documentation<o:p></o:p></span> 
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 level1 lfo2; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">com.fujitsu.cbdt.ui – COBOL 
+          IDE user interface modules<o:p></o:p></span> </li>
+      </ol>
+      <p class=MsoNormal 
+      style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto"><span 
+      style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">For the contribution, the package 
+        name is should be changed (e.g., org.eclipse prefix).<o:p></o:p></span></p>
+      <p><b>Development plan </b></p>
+      <p>We are supplying a separate project plan simultaneously with this proposal.<span style="mso-spacerun: yes">&nbsp; 
+        </span>We believe it will be possible to deliver a public release in December 
+        2002.</p>
+      <ul type=disc>
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">rename our packages to use 
+          the org.eclipse prefix <o:p></o:p></span> 
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">define common bridge APIs<o:p></o:p></span> 
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">make bridges for several COBOL 
+          products (Fujitsu COBOL, MicroFocus COBOL, Hitachi COBOL and IBM COBOL)<o:p></o:p></span> 
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">improve stability<o:p></o:p></span> 
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">internationalization support<o:p></o:p></span> 
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">other platform support (Windows 
+          and Solaris)<o:p></o:p></span> 
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Support the latest version 
+          of Eclipse<o:p></o:p></span> </li>
+      </ul>
+      <p>We set below the features that have already been developed by Fujitsu 
+        Limited.</p>
+      <ul type=disc>
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo1; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">COBOL Editor<o:p></o:p></span> 
+          <ul type=circle>
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Support usual editor features<o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Syntax coloring<o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Support for all kind of 
+              COBOL source code format – fixed format and free format <o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Displaying sequence number 
+              and auto renumbering.<o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Syntax template<o:p></o:p></span> 
+            </li>
+          </ul>
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo1; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">COBOL Builder<o:p></o:p></span> 
+          <ul type=circle>
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Target execution with specifying 
+              environment variables<o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Setting compiler and linker 
+              options<o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Dependency analysis<o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Other build features (Ant 
+              file creation and batch build)<o:p></o:p></span> </li>
+          </ul>
+        <li class=MsoNormal 
+        style="MARGIN-TOP: 12pt; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo1; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">COBOL Debugger<o:p></o:p></span> 
+          <ul type=circle>
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Debugging GUI for COBOL 
+              debugger<o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Setting breakpoint, displaying 
+              variables and call stacks that follows Eclipse debug perspective.<o:p></o:p></span> 
+            </li>
+          </ul>
+        <li class=MsoNormal 
+        style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo1; tab-stops: list .5in"><span 
+        style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Project and Resource Management<o:p></o:p></span> 
+          <ul type=circle>
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Dependency View, Structure 
+              View and Template View<o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Creating, Closing and Deleting 
+              a new project or a new file<o:p></o:p></span> 
+            <li class=MsoNormal 
+          style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"><span 
+          style="FONT-SIZE: 10pt; FONT-FAMILY: Arial">Template assistance wizard<o:p></o:p></span> 
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p>If you want to contribute to the development of this plugin, we welcome 
+        the opportunity to work with you. The plan will be updated to reflect 
+        the commitments made by contributors to this projects. </p>
+      <p><b>License</b></p>
+      <p>This project is licensed under the Common Public License.</p>
+      <p><br>
+      </p>
+      </td>
+  </tr>
+</table>
+<p><span 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-fareast-font-family: 'MS Mincho'; mso-fareast-language: JA; mso-ansi-language: EN-US; mso-bidi-language: AR-SA"><br 
+style="PAGE-BREAK-BEFORE: always" clear=all>
+  </span> </p>
+<p class=MsoNormal><b>Appendix A: COBOL IDE Perspective<o:p></o:p></b></p>
+<p><img src="image002.jpg" width="624" height="468"></p>
+<p><b><span 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-fareast-font-family: 'MS Mincho'; mso-fareast-language: JA; mso-ansi-language: EN-US; mso-bidi-language: AR-SA"><br 
+style="PAGE-BREAK-BEFORE: always" clear=all>
+  </span></b> </p>
+<p class=MsoNormal><b>Appendix B: COBOL Debugger Perspective<o:p></o:p></b></p>
+<p><img src="image004.jpg" width="624" height="468"></p>
+</body>
+</html>
