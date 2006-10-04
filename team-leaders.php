@@ -125,7 +125,7 @@
 	  </li>
 
 	  <li><b><a href="http://www.eclipse.org/php"><b>PHP</b></a></b><br>
-	  <b></b>
+	  <b>Yossi Leon</b>
 	  </li>
 
 	  <li><b><a href="http://www.eclipse.org/vep"><b>Visual Editor</b></a></b><br>
