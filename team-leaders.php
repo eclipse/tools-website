@@ -75,7 +75,14 @@
       </li>
  
       <li><b>Doug Schaefer (DSchaefer at qnx.com)</b><br>
-        Doug Schaefer is the lead for the CDT project. Full bio pending. 
+        Doug Schaefer is the lead for the CDT project and a Senior Software Developer
+        at QNX Software Systems. Doug has been involved in the software development
+        tools industry for over a decade including stints at Nortel Networks, ObjecTime,
+        Rational, and IBM. He has focused mainly on software modelling with particular
+        interest in parsing, code models, and code generation. Now with QNX, he has
+        also re-acquired his enthusiasm for embedded systems development where he
+        started his career.
+ 
       </li>
  
       <li><b>Erich Gamma (erich_gamma at ch.ibm.com)</b><br>
