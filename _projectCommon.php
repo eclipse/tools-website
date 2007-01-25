@@ -43,5 +43,6 @@ $Menu->setProjectBranding($branding);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;GEF", "/gef/", 	"_self", 1);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;PHP", "/php/", 	"_self", 1);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;VE", "/vep/", 	"_self", 1);
+	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;PTP", "/ptp/", 	"_self", 1);
 
 ?>
