@@ -165,7 +165,20 @@
         PHP-based Web Applications and will facilitate extensibility. It will leverage
  	    the existing Web Tools Project in providing developers with PHP capabilities.
         Read more about this project <a href="http://www.eclipse.org/php">here</a>
+			</li>
 
+			<li>
+		<a href="http://www.eclipse.org/ptp"><b>PTP</b></a>  
+    	<br>
+        The Parallel Tools Platform (PTP) project aims to produce an open-source, robust, 
+        commercial quality platform that provides a highly integrated development environment 
+        specifically designed for parallel and high performance computing application 
+        development. The project will provide a standardized and portable IDE that 
+        supports a large number of parallel and high performance computing architectures and 
+        runtime systems, a scalable parallel debugger, and a range of parallel language 
+        development tools that will improve the productivity of scientific application 
+        developers.
+        Read more about this project <a href="http://www.eclipse.org/ptp">here</a>
 			</li>
 
 			<li>
@@ -181,23 +194,6 @@
         </p>
         			
 			</li>
-			
-			
-			<li>
-       <p><a href="http://www.eclipse.org/ptp"><b>PTP</b></a> 
-        <br>
-			The aim of the parallel tools platform project is to produce an open-source industry-strength platform that provides a highly integrated environment
- specifically designed for parallel application development. The project will provide:
-
-		<ul>
-    <li> a standard, portable parallel IDE that supports a wide range of parallel architectures and runtime systems
-    </li>
-    <li>  a scalable parallel debugger</li>
-    <li>  support for the integration of a wide range of parallel tools</li>
-    <li>  an environment that simplifies the end-user interaction with parallel systems</li>
-		</ul>
-			</li>
-			
 		</ul>
 		
 	</div>
