@@ -146,11 +146,17 @@
         <a href="mailto:gef-dev@eclipse.org" target="_top">mailing list</a> created 
         for each of the components in the project. Downloads are available <a href="http://dev.eclipse.org/viewcvs/index.cgi/%7Echeckout%7E/gef-home/downloads/dl.html?cvsroot=Tools_Project">here</a>. 
       	</p>
-			
 			</li>
 
-			<li>
+		<li><a href="http://eclipse.org/orbit"><b>Orbit</b></a><br>
+		Orbit provides a repository of bundled versions of third party libraries that are approved for 
+		use in one or more Eclipse projects. The repository will maintain old versions of such libraries 
+		to facilitate rebuilding historical output. It will also clearly indicate the status of the library (i.e., 
+		the approved scope of use). The repository will be structured such that the contained bundles 
+		are easily obtained and added to a developer's workspace or target platform.
+		</li>
 
+			<li>
 		<a href="http://www.eclipse.org/php"><b>PHP</b></a>  
     	<br>
         The PHP IDE project is working towards providing a fully functional PHP 

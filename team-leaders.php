@@ -94,7 +94,21 @@
         UI. Erich is also a member of the <a href="../eclipse/team-leaders.php"> 
         Platform PMC</a>.</p>
       </li>
-  </ul>
+      
+     <li><b>Jeff McAffer (jeff_mcaffer at ca.ibm.com)</b><br>
+      Jeff McAffer leads the Eclipse <a href="http://eclipse.org/equinox">Equinox OSGi</a>, <a href="http://eclipse.org/rcp">RCP</a> 
+      and <a href="http://eclipse.org/orbit">Orbit</a> teams and is a 
+      Senior Technical Staff Member with IBM Rational.  He is one of the architects of the 
+      Eclipse Platform and a co-author of <a href="http://eclipsercp.org">The Eclipse Rich Client Platform</a> (Addison-Wesley).  
+      He is a member of the <a href="http://eclipse.org/eclipse/team-leaders.php">Eclipse Project PMC</a>, 
+      the <a href="http://eclipse.org/tools/team-leaders.php">Tools Project PMC</a> and the Eclipse 
+      Foundation Board of Directors.  Jeff is currently interested all aspects of Eclipse componentry 
+      from developing and building bundles to deploying, installing and ultimately running them. 
+      Previous lives included work in distributed/parallel OO computing (Server Smalltalk, massively 
+      parallel Smalltalk, etc) as well as expert systems, meta-level architectures and a PhD at 
+      the University of Tokyo.
+      </li>
+    </ul>
  </div>
   
   
