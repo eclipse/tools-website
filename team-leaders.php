@@ -138,7 +138,11 @@
 	  <b>Anthony Hunter</b>
 	  </li>
 
-	  <li><b><a href="http://www.eclipse.org/php"><b>PHP</b></a></b><br>
+	  <li><b><a href="http://www.eclipse.org/orbit"><b>Orbit</b></a></b><br>
+	  <b>Jeff McAffer</b>
+	  </li>
+
+	  <li><b><a href="http://www.eclipse.org/php"><b>PDT</b></a></b><br>
 	  <b>Yossi Leon</b>
 	  </li>
 
