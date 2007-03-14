@@ -159,12 +159,13 @@
 			<li>
 		<a href="http://www.eclipse.org/php"><b>PHP</b></a>  
     	<br>
-        The PHP IDE project is working towards providing a fully functional PHP 
-        Integrated Development Environment framework for the Eclipse platform. 
-        This project will encompass all development components necessary to develop 
-        PHP-based Web Applications and will facilitate extensibility. It will leverage
- 	    the existing Web Tools Project in providing developers with PHP capabilities.
-        Read more about this project <a href="http://www.eclipse.org/php">here</a>
+    	The PDT project is working towards providing a PHP Development Tools 
+    	framework for the Eclipse platform. This project will 
+    	encompass all development components necessary to develop PHP and will facilitate 
+    	extensibility. It will leverage the existing Web Tools Project in providing developers 
+    	with PHP capabilities.
+
+        Read more about this project <a href="http://www.eclipse.org/pdt">here</a>
 			</li>
 
 			<li>
