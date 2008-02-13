@@ -195,6 +195,23 @@
         </p>
         			
 			</li>
+
+		<li>
+
+       <p><a href="http://www.eclipse.org/buckminster"><b>Buckminster</b></a> 
+        <br>
+Buckminster is a set of frameworks and tools for automating build, assemble & deploy (BA&D) 
+development processes in complex or distributed component-based development. Buckminster allows 
+development organizations to define fine-grained "production lines" for the various stages in 
+software production - unit testing, integration testing, field deployment, staged migration, etc. 
+- and to automate the execution of corresponding processes.
+
+        Read more about this project <a href="http://www.eclipse.org/buckminster" target="_top">here</a>
+</p>
+
+		</li>
+
+
 		</ul>
 		
 	</div>
