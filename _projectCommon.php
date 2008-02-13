@@ -40,5 +40,6 @@ $Menu->setProjectBranding($branding);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;PDT", "/php/", 	"_self", 1);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;PTP", "/ptp/", 	"_self", 1);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;VE", "/vep/", 	"_self", 1);
+	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;Buckminster", "/buckminster/", 	"_self", 1);
 
 ?>
