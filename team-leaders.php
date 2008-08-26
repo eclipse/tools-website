@@ -125,9 +125,14 @@
 	  <li><b><a href="http://www.eclipse.org/ajdt"><b>AspectJ Development Tools</b></a></b><br>
 	  <b>Matt Chapman (mchapman at uk.ibm.com)</b>
 	  </li>
-
+	  
+	  <li><b><a href="http://www.eclipse.org/buckminster"><b>Buckminster</b></a></b><br>
+	  <b>Henrik Lindberg</b><br>
+	  <b>Thomas Hallgren</b>
+	  </li>
+	  
 	  <li><b><a href="http://www.eclipse.org/cdt"><b>C/C++ IDE</b></a></b><br>
-	  <b>Doug Schaefer (DSchaefer at qnx.com)</b>
+	  <b>Doug Schaefer (DSchaefe at windriver.com)</b>
 	  </li>
 
 	  <li><b><a href="http://www.eclipse.org/cobol"><b>COBOL</b></a></b><br>
@@ -138,14 +143,26 @@
 	  <b>Anthony Hunter</b>
 	  </li>
 
+	  <li><b><a href="http://www.eclipse.org/hibachi"><b>Hibachi</b></a></b><br>
+	  <b>Thomas Grosman</b>
+	  </li>
+	  
+	  <li><b><a href="http://www.eclipse.org/mylyn"><b>Mylyn</b></a></b><br>
+	  <b>Mik Kersten</b>
+	  </li>
+	  
 	  <li><b><a href="http://www.eclipse.org/orbit"><b>Orbit</b></a></b><br>
 	  <b>Jeff McAffer</b>
 	  </li>
 
-	  <li><b><a href="http://www.eclipse.org/php"><b>PDT</b></a></b><br>
-	  <b>Yossi Leon</b>
+	  <li><b><a href="http://www.eclipse.org/pdt"><b>PDT</b></a></b><br>
+	  <b>Assaf Almaz</b>
 	  </li>
 
+	  <li><b><a href="http://www.eclipse.org/ptp"><b>PTP</b></a></b><br>
+	  <b>Greg Watson</b>
+	  </li>
+	  
 	  <li><b><a href="http://www.eclipse.org/vep"><b>Visual Editor</b></a></b><br>
 	  <b>Joe Winchester</b>
 	  </li>

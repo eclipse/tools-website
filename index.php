@@ -82,7 +82,22 @@
 			  Development Tools (JDT) when working with AspectJ projects and resources.
 			
 			</li>
-		
+
+					<li>
+
+       <p><a href="http://www.eclipse.org/buckminster"><b>Buckminster</b></a> 
+        <br>
+Buckminster is a set of frameworks and tools for automating build, assemble & deploy (BA&D) 
+development processes in complex or distributed component-based development. Buckminster allows 
+development organizations to define fine-grained "production lines" for the various stages in 
+software production - unit testing, integration testing, field deployment, staged migration, etc. 
+- and to automate the execution of corresponding processes.
+<br /><br />
+        <a href="http://www.eclipse.org/buckminster">Read more &raquo;</a>
+</p>
+
+		</li>
+			
 			<li>
 			
 		      <a href="http://www.eclipse.org/cdt"><b>C/C++ IDE</b></a> 
@@ -104,7 +119,6 @@
       relating to the implementation of the C/C++ IDE, there are developer <a href="http://www.eclipse.org/mail/index.html" target="_top">mailing 
       lists</a> created for each of the components in the project. Downloads are 
       available <a href="http://dev.eclipse.org/viewcvs/index.cgi/%7Echeckout%7E/cdt-home/downloads/main.html?cvsroot=Tools_Project">here</a>. 
-		
 			</li>
 
 			<li>
@@ -117,8 +131,8 @@
         on each platform. We are interested in participation from others who would 
         like to extend our work in other directions. e.g. wizards for developing 
         applications that use particular library or database or messaging APIs, 
-        or extension to other languages. 
-      	Read more about this new project <a href="http://www.eclipse.org/cobol" target="_top">here</a>
+        or extension to other languages. <br /><br />
+      	<a href="http://www.eclipse.org/cobol">Read more &raquo;</a>
 			
 			</li>
 			
@@ -148,6 +162,17 @@
       	</p>
 			</li>
 
+			<li>
+
+       <p><a href="/mylyn"><b>Mylyn</b></a> <br />
+Mylyn is a Task-Focused Interface for Eclipse that reduces information overload and makes multi-tasking easy. It does this by making tasks a first class part of Eclipse, and integrating rich and offline editing for repositories such as Bugzilla, Trac, and JIRA. Once your tasks are integrated, Mylyn monitors your work activity to identify information relevant to the task-at-hand, and uses this task context to focus the Eclipse UI on the interesting information, hide the uninteresting, and automatically find what's related. This puts the information you need to get work done at your fingertips and improves productivity by reducing searching, scrolling, and navigation. By making task context explicit Mylyn also facilitates multitasking, planning, reusing past efforts, and sharing expertise.
+<br /><br />
+        <a href="/mylyn">Read more &raquo;</a>
+</p>
+
+		</li>
+			
+			
 		<li><a href="http://eclipse.org/orbit"><b>Orbit</b></a><br>
 		Orbit provides a repository of bundled versions of third party libraries that are approved for 
 		use in one or more Eclipse projects. The repository will maintain old versions of such libraries 
@@ -157,15 +182,14 @@
 		</li>
 
 			<li>
-		<a href="http://www.eclipse.org/php"><b>PHP</b></a>  
+		<a href="http://www.eclipse.org/pdt"><b>PDT</b></a>  
     	<br>
     	The PDT project is working towards providing a PHP Development Tools 
     	framework for the Eclipse platform. This project will 
     	encompass all development components necessary to develop PHP and will facilitate 
     	extensibility. It will leverage the existing Web Tools Project in providing developers 
-    	with PHP capabilities.
-
-        Read more about this project <a href="http://www.eclipse.org/pdt">here</a>
+    	with PHP capabilities.<br /><br />
+        <a href="http://www.eclipse.org/pdt">Read more &raquo;</a>
 			</li>
 
 			<li>
@@ -178,8 +202,8 @@
         supports a large number of parallel and high performance computing architectures and 
         runtime systems, a scalable parallel debugger, and a range of parallel language 
         development tools that will improve the productivity of scientific application 
-        developers.
-        Read more about this project <a href="http://www.eclipse.org/ptp">here</a>
+        developers.<br /><br />
+        <a href="http://www.eclipse.org/ptp">Read more &raquo;</a>
 			</li>
 
 			<li>
@@ -190,28 +214,10 @@
         for Eclipse. It will include reference implementations of Swing/JFC and 
         SWT GUI builders, but intends to be useful for creating GUI builders for 
         other languages such as C/C++ and alternate widget sets, including those 
-        that are not supported under Java. 
-        Read more about this project <a href="http://www.eclipse.org/vep" target="_top">here</a>
-        </p>
-        			
+        that are not supported under Java.<br /><br /> 
+        <a href="http://www.eclipse.org/vep">Read more &raquo;</a>
+        </p>			
 			</li>
-
-		<li>
-
-       <p><a href="http://www.eclipse.org/buckminster"><b>Buckminster</b></a> 
-        <br>
-Buckminster is a set of frameworks and tools for automating build, assemble & deploy (BA&D) 
-development processes in complex or distributed component-based development. Buckminster allows 
-development organizations to define fine-grained "production lines" for the various stages in 
-software production - unit testing, integration testing, field deployment, staged migration, etc. 
-- and to automate the execution of corresponding processes.
-
-        Read more about this project <a href="http://www.eclipse.org/buckminster" target="_top">here</a>
-</p>
-
-		</li>
-
-
 		</ul>
 		
 	</div>
