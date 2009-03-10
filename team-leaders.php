@@ -90,7 +90,7 @@ $html = <<<EOHTML
       <li><b>Doug Schaefer</b> (dschaefe at windriver.com)<br />
         Doug Schaefer is the lead for the CDT project and an Engineering Manager
         at Wind River Systems. Doug has been involved in the software development
-        tools industry for over a decade including stints at Nortel Networks, ObjecTime,
+        tools industry for over a decade including stints at Nortel, ObjecTime,
         Rational, IBM, and QNX. He has focused mainly on software modeling with particular
         interest in parsing, code models, and code generation. Now with Wind River, he
         manages the team putting together Wind River's next generation installer based
