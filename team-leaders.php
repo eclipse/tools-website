@@ -99,12 +99,12 @@
       the University of Tokyo.
       </li>
       
-      <li><b>David Williams (david_williams at us dot ibm dot com)</b></br>
+      <li><b>David Williams (david_williams at us.ibm.com)</b></br>
        <p>David is the PMC Lead for the Eclipse Web Tools Platform as well 
-       as being a member of the Tools PMC. He also serves on the 
+       as being a member of the Tools PMC. He also leads the 
        Eclipse Foundation's Planning Council.</p>
 
-       <p>David is a senior programmer at IBM’s RTP Lab in North Carolina 
+       <p>David is a developer at IBM Rational's RTP Lab in North Carolina 
        and has worked with Eclipse since 2001, initially creating 
        Eclipse-based products (WSAD) and then becoming a committer 
        in 2004 for source editors in WTP.</p>
