@@ -111,7 +111,7 @@
 
        <p>Prior to reaching this pinnacle, David was a lab-based 
        service consultant, directly helping IBM’s customers 
-       adapt object oriented technology and design web-based 
+       adopt object oriented technology and design web-based 
        applications, first using Smalltalk and then later Java. 
        For the decade prior to that, David was responsible 
        for Human Factors and Usability of a number of IBM 
