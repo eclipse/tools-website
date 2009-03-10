@@ -93,8 +93,8 @@ $html = <<<EOHTML
         tools industry for over a decade including stints at Nortel, ObjecTime,
         Rational, IBM, and QNX. He has focused mainly on software modeling with particular
         interest in parsing, code models, and code generation. Now with Wind River, he
-        manages the team putting together Wind River's next generation installer based
-        on Eclipse p2 technology. He also remains involved with the CDT working on
+        manages the team putting together Wind River's next generation software distribution
+        technology based on Eclipse p2. He also remains involved with the CDT working on
         his Wascana Eclipse/MinGW tools distribution as well is getting more and more
         involved in open platforms for embedded development.
  
