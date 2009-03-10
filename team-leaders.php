@@ -87,14 +87,16 @@ $html = <<<EOHTML
 	  working with the Eclipse platform since its inception.</p>
       </li>
       
-      <li><b>Doug Schaefer</b> (DSchaefer at qnx.com)<br />
-        Doug Schaefer is the lead for the CDT project and a Senior Software Developer
-        at QNX Software Systems. Doug has been involved in the software development
+      <li><b>Doug Schaefer</b> (dschaefe at windriver.com)<br />
+        Doug Schaefer is the lead for the CDT project and an Engineering Manager
+        at Wind River Systems. Doug has been involved in the software development
         tools industry for over a decade including stints at Nortel Networks, ObjecTime,
-        Rational, and IBM. He has focused mainly on software modelling with particular
-        interest in parsing, code models, and code generation. Now with QNX, he has
-        also re-acquired his enthusiasm for embedded systems development where he
-        started his career.
+        Rational, IBM, and QNX. He has focused mainly on software modeling with particular
+        interest in parsing, code models, and code generation. Now with Wind River, he
+        manages the team putting together Wind River's next generation installer based
+        on Eclipse p2 technology. He also remains involved with the CDT working on
+        his Wascana Eclipse/MinGW tools distribution as well is getting more and more
+        involved in open platforms for embedded development.
  
       </li>
  
