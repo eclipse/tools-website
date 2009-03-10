@@ -85,16 +85,6 @@
  
       </li>
  
-      <li><b>Erich Gamma (erich_gamma at ch.ibm.com)</b><br>
-        Erich is the lead of the Eclipse Java development environment. Prior to 
-        working on Eclipse Erich has contributed to VA/Micro Edition (part of 
-        IBM's Java solution for embedded device programming). Erich is well known 
-        for his work on Design Patterns and <a href="http://www.junit.org/" target="_top">JUnit</a>. 
-        Erich is leader of the JDT subproject, and component lead for the JDT 
-        UI. Erich is also a member of the <a href="../eclipse/team-leaders.php"> 
-        Platform PMC</a>.</p>
-      </li>
-      
      <li><b>Jeff McAffer (jeff_mcaffer at ca.ibm.com)</b><br>
       Jeff McAffer leads the Eclipse <a href="http://eclipse.org/equinox">Equinox OSGi</a>, <a href="http://eclipse.org/rcp">RCP</a> 
       and <a href="http://eclipse.org/orbit">Orbit</a> teams and is a 
@@ -108,6 +98,26 @@
       parallel Smalltalk, etc) as well as expert systems, meta-level architectures and a PhD at 
       the University of Tokyo.
       </li>
+      
+      <li><b>David Williams (david_williams at us dot ibm dot com)</b></br>
+       <p>David is the PMC Lead for the Eclipse Web Tools Platform as well 
+       as being a member of the Tools PMC. He also serves on the 
+       Eclipse Foundation's Planning Council.</p>
+
+       <p>David is a senior programmer at IBM’s RTP Lab in North Carolina 
+       and has worked with Eclipse since 2001, initially creating 
+       Eclipse-based products (WSAD) and then becoming a committer 
+       in 2004 for source editors in WTP.</p>
+
+       <p>Prior to reaching this pinnacle, David was a lab-based 
+       service consultant, directly helping IBM’s customers 
+       adapt object oriented technology and design web-based 
+       applications, first using Smalltalk and then later Java. 
+       For the decade prior to that, David was responsible 
+       for Human Factors and Usability of a number of IBM 
+       Products, following his MA in Quantitative Psychology and 
+       Cognitive Science from University of Colorado at Boulder. </p>
+      </li>      
     </ul>
  </div>
   
