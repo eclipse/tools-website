@@ -19,7 +19,7 @@ if (file_exists($xhtmlFile)) {
 	# Generate the web page
 	// Load the XML source
 	$xml = new DOMDocument;
-	$xml->loadxhtmlFile($xhtmlFile);
+	$xml->loadHTMLFile($xhtmlFile);
 
 	//Set the page title
 	$xpath = new DOMXPath($xml);
