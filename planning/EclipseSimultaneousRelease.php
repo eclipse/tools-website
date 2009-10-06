@@ -39,12 +39,8 @@ if (file_exists($xhtmlFile)) {
 	$maincontent = $proc->transformToXML($xmlbody);
 	$html = <<<EOHTML
 	<div id="maincontent">
-	<div id="midcolumn">
-	
-	$maincontent
-	
+	<div id="midcolumn">$maincontent</div>
 	</div>
-</div>
 
 EOHTML;
 	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
