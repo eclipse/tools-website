@@ -43,6 +43,7 @@ if (file_exists($xhtmlFile)) {
 	<ul id="leftnav">
 	<li class="separator">&nbsp;</li>
 	</ul>
+	</div>
 
 	
 	<div id="maincontent">
