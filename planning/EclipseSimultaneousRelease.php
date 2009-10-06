@@ -40,9 +40,7 @@ if (file_exists($xhtmlFile)) {
 	$html = <<<EOHTML
 	<!-- include empty lef nav col for now -->
 	<div id="leftcol">
-	<ul id="leftnav">
-	<li class="separator">&nbsp;</li>
-	</ul>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	</div>
 
 	
