@@ -28,6 +28,12 @@ if (file_exists($xhtmlFile)) {
 	// echo "<br />titleNodeValue: " . $titleNode->nodeValue;
 	$pageTitle = ($titleNode != null) ? $titleNode->childNodes->item(0)->nodeValue : "planning page";
 
+	$xsl = DOMDocument::load('planningnova.xsl');
+	// Configure the transformer
+	$proc = new XSLTProcessor;
+	$proc->importStyleSheet($xsl); // attach the xsl rules
+	
+	
 	// work on just the body of the original (not head, etc.)
 	$xmlbody=$xml->getElementsByTagName('body')->item(0);
 	$maincontent = $proc->transformToXML($xmlbody);
