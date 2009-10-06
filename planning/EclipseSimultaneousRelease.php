@@ -3,9 +3,10 @@
 // Note: the HTML input files should have &nbsp; coded as &#160; to survive xsl transforms
 // also '&' should be coded as '&amp;'
 //
+ini_set("display_errors", "true");
+error_reporting (E_ALL);
 
-
-require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
+require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();   # All on the same line to unclutter the user's desktop'
 
 $pageKeywords	= "Eclispe Simultaneous Release";
 $pageAuthor		= "David Williams";
