@@ -11,6 +11,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.p
 $pageKeywords	= "Eclispe Simultaneous Release";
 $pageAuthor		= "David Williams";
 $root = $_SERVER['DOCUMENT_ROOT'];
+$theme = "Nova";
 
 $xhtmlFile="EclipseSimultaneousRelease.html";
 
