@@ -57,7 +57,7 @@ EOHTML;
 		$html="<p>Error: XHTML file did not provided.</p>";
 	}
 	else {
-		$html="<p>There is no file named " . $xhtmlFile . "</p>";
+		$html="<p>Error: There is no file named <b>" . $xhtmlFile . "</b></p>";
 	}
 	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
 

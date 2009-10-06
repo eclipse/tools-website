@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head> 
+<head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <title>The Eclipse Simultaneous Release</title>
 </head>
@@ -28,7 +28,7 @@ maintainability, and improved consumability by adopters.</p>
 &quot;should do&quot; items, the requirements are divided into
 categories based on 1) basic things required to release, at all, as part
 of the &quot;yearly release&quot;, 2) things that are required to be
-part of the Common Discover Site repository and part of EPP packages,
+part of the Common Discovery Site repository and part of EPP packages,
 and 3) things to demonstrate good Eclipse Citizenship, following
 &quot;the Eclipse Way&quot;.</p>
 <h2>Do the basics ... early</h2>
@@ -206,13 +206,18 @@ as it is required and has a documented reason).</p>
 <p><b>Optimization</b>. Projects must <a
 	href="http://help.eclipse.org/galileo/topic/org.eclipse.platform.doc.isv/guide/p2_repositorytasks.htm">
 optimize their p2 repositories</a> to reduce bandwidth utilization and
-provide a better install and update experience for users. Projects must
-provide their own project p2 repository, and must provide the data or
-run scripts to produce the common repository.</p>
+provide a better install and update experience for users.</p>
+<p><b>Provide p2 repository</b>. Projects must provide their own
+project p2 repository for their own project and updates. In addition,
+they must provide their "data" in a specified format and method to allow
+at least parts of their repository to be aggregated and mirrored to a
+common repository. [Review Note: the exact details are subject to change 
+as new, improved methods are found for en]</p>
 <p><b>Capabilities</b>. Each project will provide basic
 capability/activity definitions to allow for their UI contributions to
 be hidden. These must be provided in a separate plugin/feature to
-facilitate inclusion/exclusion by consumers in product development.</p>
+facilitate inclusion/exclusion by consumers in product development.
+[Note: will be revisited after report from cross-project team.]</p>
 <p><b>Support Translations</b>. All strings must be externalized,
 and the project participates in Babel, meaning it is registered and
 available for string translation, etc. Projects must freeze the UI
@@ -233,37 +238,39 @@ plug-ins), as determined by the project's PMC (e.g. "Eclipse Modeling
 Project" rather than "Eclipse.org"). Also, Projects must contribute to
 the welcome page when appropriate.</p>
 
-<p><span class="mw-headline"> <i></i></span><b>Accessibility</b>.
-Should design and test for accessibility, and complete the accessibility
-checklist. [Review: if we can't come up with specific checklist, this
-will move back to &quot;good citizen&quot; section].</p>
+<p><b>Accessibility</b>. Should design and test for accessibility,
+and complete an accessibility checklist. [Review note: Cross project
+team will recommend more specifics (e.g. specific accessibility
+checklist)].</p>
 <p><b>Do No Harm.</b> Projects must work together in any combination
 of any install. Put another way, this means that users can install any
 subset of the Helios projects and each of the installed projects will
 pass all the same tests as if it had been loaded independently. If such
 a problem is identified, the affected projects must track down and fix
 the problem.</p>
-<p><span class="mw-headline"><i>[New this year.]</i> <b>License
-</b></span><b>consistency</b>. Use standard forms of license documents so it is
-displayed in the most usable, and concise way during install and update.
-(You can see an example as of <a
+<p><i>[New this year.]</i> <b>License consistency</b>. Use standard
+forms of license documents so it is displayed in the most usable, and
+concise way during install and update. This is the normally required <a
+	href="http://www.eclipse.org/legal/epl/about.php">Eclispe
+Foundation &quot;about&quot; templates</a>, but where those templates are
+edited by each project, we'll need to make sure they are edited in
+similar ways. You can see an example of the license-consolidating UI in
+<a
 	href="http://download.eclipse.org/eclipse/downloads/drops/S-3.6M1-200908061400/eclipse-news-M1.html#Platform">Eclipse
-Platform Helios M1</a>. Exact templates to be provided later. [Review: by
-who, by when?])</p>
+Platform Helios M1</a>.</p>
 
 
 <h2>Be a good Eclipse Citizen ... and document it</h2>
-<p><span class="mw-headline"></span>Projects should exhibit good
-Eclipse Citizenship, to participate in Common Discovery Site and EPP
-Packages. These are often &quot;best practices&quot; that some projects
-have found helpful at Eclipse. These criteria speak mostly to the
-quality of the Project, as an Eclipse Project, as opposed to their code
-or architecture. They are a bit more subjective than some of the other
-criteria, and the relevancy to any particular project may not be as
-universal, so there is no set number of items to satisfy, except to
-accurately document the project's level of compliance to each item.
-Especially good Eclipse Citizens will get a gold star, and especially
-bad ones might get a frowny face.</p>
+<p>Projects should exhibit good Eclipse Citizenship, to participate
+in Common Discovery Site and EPP Packages. These are often &quot;best
+practices&quot; that some projects have found helpful at Eclipse. These
+criteria speak mostly to the quality of the Project, as an Eclipse
+Project, as opposed to their code or architecture. They are a bit more
+subjective than some of the other criteria, and the relevancy to any
+particular project may not be as universal, so there is no set number of
+items to satisfy, except to accurately document the project's level of
+compliance to each item. Especially good Eclipse Citizens will get a
+gold star, and especially bad ones might get a frowny face.</p>
 <p><b>Engage Community</b>. The Project should actively engage their
 community to get feedback on milestone builds, and document how they do
 that. One way to do this is to have a <a
