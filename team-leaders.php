@@ -138,61 +138,12 @@ $html = <<<EOHTML
   
   <div class="homeitem" style="width: 97%">
   <h3>Subproject Leaders</h3>
-  
-    <ul>
-
-	  <li><b><a href="http://www.eclipse.org/aspectj"><b>AspectJ</b></a></b><br />
-	  <b>Adrian Colyer (adrian.colyer at interface21.com)</b><br />
-	  <b>Andrew Clement (clemas at uk.ibm.com)</b>
-	  </li>
-
-	  <li><b><a href="http://www.eclipse.org/ajdt"><b>AspectJ Development Tools</b></a></b><br />
-	  <b>Matt Chapman (mchapman at uk.ibm.com)</b>
-	  </li>
-	  
-	  <li><b><a href="http://www.eclipse.org/buckminster"><b>Buckminster</b></a></b><br />
-	  <b>Henrik Lindberg</b><br />
-	  <b>Thomas Hallgren</b>
-	  </li>
-	  
-	  <li><b><a href="http://www.eclipse.org/cdt"><b>C/C++ IDE</b></a></b><br />
-	  <b>Doug Schaefer (Doug.Schaefer@windriver.com)</b>
-	  </li>
-
-	  <li><b><a href="http://www.eclipse.org/cobol"><b>COBOL</b></a></b><br />
-	  <b>Ron Langer (rjl at fsw.fujitsu.com)</b>
-	  </li>
-
-	  <li><b><a href="http://www.eclipse.org/gef"><b>GEF</b></a></b><br />
-	  <b>Anthony Hunter</b>
-	  </li>
-
-	  <li><b><a href="http://www.eclipse.org/hibachi"><b>Hibachi</b></a></b><br />
-	  <b>Thomas Grosman</b>
-	  </li>
-	  
-	  <li><b><a href="http://www.eclipse.org/mylyn"><b>Mylyn</b></a></b><br />
-	  <b>Mik Kersten</b>
-	  </li>
-	  
-	  <li><b><a href="http://www.eclipse.org/orbit"><b>Orbit</b></a></b><br />
-	  <b>Jeff McAffer</b>
-	  </li>
-
-	  <li><b><a href="http://www.eclipse.org/pdt"><b>PDT</b></a></b><br />
-	  <b>Assaf Almaz</b>
-	  </li>
-
-	  <li><b><a href="http://www.eclipse.org/ptp"><b>PTP</b></a></b><br />
-	  <b>Greg Watson</b>
-	  </li>
-	  
-	  <li><b><a href="http://www.eclipse.org/vep"><b>Visual Editor</b></a></b><br />
-	  <b>Joe Winchester</b>
-	  </li>
-
-
-    </ul>
+  <!-- removed old, out of date section on 05/20/2011. This whole section could probably be deleted
+         but left here temporarily for some continutity --> 
+  <p>Please see the <a href="http://www.eclipse.org/projects/listofprojects.php#tools">Tools project master list</a>
+        for a list of all subprojects in the Tools Projects, and click on a specific one of those to see the subproject lead, and other 
+        information about the subproject.<p>
+    
   </div>
 
 		<hr class="clearer" />
