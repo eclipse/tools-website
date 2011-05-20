@@ -87,7 +87,7 @@ $html = <<<EOHTML
 	  working with the Eclipse platform since its inception.</p>
       </li>
       
-      <li><b>Doug Schaefer</b> (dschaefe at windriver.com)<br />
+      <li><b>Doug Schaefer</b> (Doug.Schaefer at windriver.com<br />
         Doug Schaefer is the lead for the CDT project and an Engineering Manager
         at Wind River Systems. Doug has been involved in the software development
         tools industry for over a decade including stints at Nortel, ObjecTime,
@@ -124,7 +124,7 @@ $html = <<<EOHTML
        in 2004 for source editors in WTP.</p>
 
        <p>Prior to reaching this pinnacle, David was a lab-based 
-       service consultant, directly helping IBM’s customers 
+       service consultant, directly helping IBMï¿½s customers 
        adopt object oriented technology and design web-based 
        applications, first using Smalltalk and then later Java. 
        For the decade prior to that, David was responsible 
