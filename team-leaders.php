@@ -124,7 +124,7 @@ $html = <<<EOHTML
        in 2004 for source editors in WTP.</p>
 
        <p>Prior to reaching this pinnacle, David was a lab-based 
-       service consultant, directly helping IBM�s customers 
+       service consultant, directly helping IBM customers 
        adopt object oriented technology and design web-based 
        applications, first using Smalltalk and then later Java. 
        For the decade prior to that, David was responsible 
@@ -141,7 +141,7 @@ $html = <<<EOHTML
   <!-- removed old, out of date section on 05/20/2011. This whole section could probably be deleted
          but left here temporarily for some continutity --> 
   <p>Please see the <a href="http://www.eclipse.org/projects/listofprojects.php#tools">Tools project master list</a>
-        for a list of all subprojects in the Tools Projects, and click on a specific one of those to see the subproject lead, and other 
+        for a list of all subprojects in the Tools Projects, and click on a specific one of those to see the subproject leaders, and other 
         information about the subproject.<p>
     
   </div>
