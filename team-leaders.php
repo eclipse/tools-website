@@ -87,7 +87,7 @@ $html = <<<EOHTML
 	  working with the Eclipse platform since its inception.</p>
       </li>
       
-      <li><b>Doug Schaefer</b> (Doug.Schaefer at windriver.com<br />
+      <li><b>Doug Schaefer</b> (Doug.Schaefer at windriver.com)<br />
         Doug Schaefer is the lead for the CDT project and an Engineering Manager
         at Wind River Systems. Doug has been involved in the software development
         tools industry for over a decade including stints at Nortel, ObjecTime,
@@ -156,7 +156,7 @@ $html = <<<EOHTML
 	  </li>
 	  
 	  <li><b><a href="http://www.eclipse.org/cdt"><b>C/C++ IDE</b></a></b><br />
-	  <b>Doug Schaefer (DSchaefe at windriver.com)</b>
+	  <b>Doug Schaefer (Doug.Schaefer@windriver.com)</b>
 	  </li>
 
 	  <li><b><a href="http://www.eclipse.org/cobol"><b>COBOL</b></a></b><br />
