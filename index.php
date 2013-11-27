@@ -34,7 +34,7 @@ $html = <<<EOHTML
 </dev>
 
 <div id="midcolumn" style="width: 80%">
-<div class='homeitem'>
+<div class='homeitem' style="width: 75%">
    <h3>About the Eclipse Tools Project</h3>
       <p>The Eclipse Tools Project is an open source project of the Eclipse Foundation. 
         It is overseen 

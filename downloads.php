@@ -29,10 +29,14 @@
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
 
+<div class='leftnav'>
+&nbsp;
+</dev>
+
 <div id="maincontent">
 	<div id="midcolumn" style="width: 80%">
 
-	<div class="homeitem" style="width: 97%">
+	<div class="homeitem" style="width: 75%">
 		<h3>About the Eclipse Tools Project Downloads</h3>
       <p>The "Top Level" Tools Project itself has no "downloads", but you can see the 
       <a href="http://projects.eclipse.org/projects/tools">individual tools projects</a> 
@@ -42,7 +46,6 @@
       </p>
 	</div>
 
-		<hr class="clearer" />
 
 	</div>
 
