@@ -29,12 +29,10 @@ $pageAuthor		= "Tools PMC";
 # Paste your HTML content between the EOHTML markers!	
 $html = <<<EOHTML
 
-<div class='leftnav'>
-&nbsp;
-</dev>
+
 
         <div id="midcolumn" style="width: 80%">
-
+<div class='homeitem'>
                 <h3>About the Eclipse Tools Project</h3>
       <p>The Eclipse Tools Project is an open source project of the Eclipse Foundation. 
         It is overseen 
@@ -49,7 +47,8 @@ $html = <<<EOHTML
         for a list of all the exciting projects under the Tools PMC. Many of the best
         and most useful projects at Eclipse are here.</p>
         </div>
-
+</div>
+</div>
 
 
 
@@ -58,5 +57,5 @@ EOHTML;
 
 
 # Generate the web page
-$App->generatePage($theme, $Menu, $NULL, $pageAuthor, $pageKeywords, $pageTitle, $html);
+$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
 ?>
