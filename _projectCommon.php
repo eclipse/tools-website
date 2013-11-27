@@ -3,7 +3,7 @@
 	# Set the theme for your project's web pages.
 	# See the Committer Tools "How Do I" for list of themes
 	# https://dev.eclipse.org/committers/ 
-	$theme = "Lazarus";
+	$theme = "Nova";
 
 	require_once($_SERVER['DOCUMENT_ROOT'] . "/projects/common/project-info.class.php");
 
