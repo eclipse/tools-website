@@ -29,7 +29,10 @@ $pageAuthor		= "Tools PMC";
 # Paste your HTML content between the EOHTML markers!	
 $html = <<<EOHTML
 
-<div id="maincontent">
+<div class='leftnav'>
+&nbsp;
+</dev>
+
         <div id="midcolumn" style="width: 80%">
 
                 <h3>About the Eclipse Tools Project</h3>
@@ -48,10 +51,7 @@ $html = <<<EOHTML
         </div>
 
 
-                <hr class="clearer" />
 
-
-</div>
 
 
 EOHTML;
