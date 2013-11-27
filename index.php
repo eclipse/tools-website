@@ -35,17 +35,17 @@
 	<div class="homeitem" style="width: 97%">
 		<h3>About the Eclipse Tools Project</h3>
 		<ul>
-      <p>The Eclipse Tools Project is an open source project of eclipse.org, overseen 
-        by a <a href="team-leaders.php">Project Management Committee</a> (PMC) 
-        and project leaders. The work is done in subprojects working against a 
-        <a href="http://dev.eclipse.org/viewcvs/?cvsroot=Tools_Project">CVS repository</a>. 
+      <p>The Eclipse Tools Project is an open source project of the Eclipse Foundation. 
+        It is overseen 
+        by a <a href="http://projects.eclipse.org/projects/tools/developers">Project Management Committee</a> (PMC) 
+        but each project is ran relatively independently and overseen by the project's leaders. 
         The <a href="eclipsetools-charter.php">Eclipse Tools Project Charter</a> 
         describes the organization of the project, roles and responsibilities 
-        of the participants, and top level development process for the project. 
+        of the participants, and top level development process for the project.
       </p>
 
-      <p>Please see the <a href="http://www.eclipse.org/projects/listofprojects.php#tools">project master list</a>
-        for a list of all the exciting projects under the Tools PMC. Most of the best
+      <p>Please see the <a href="http://projects.eclipse.org/projects/tools">project master list</a>
+        for a list of all the exciting projects under the Tools PMC. Many of the best
         and most useful projects at Eclipse are here.</p>
 		</ul>
 	</div>
