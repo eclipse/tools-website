@@ -35,7 +35,7 @@
   <h3>The Eclipse Tools Project - Top Level Project Charter - The Eclipse Foundation</h3>
 
 
-  <p><b>>Overview</b><br>
+  <p><b>Overview</b><br>
   The Eclipse Tools Top Level Project (the &#8220;Eclipse Tools Project&#8221;) is an open
   source software development project dedicated to developing a wide range of exemplary,
   extensible development tools, and tools-specific components for the Eclipse
