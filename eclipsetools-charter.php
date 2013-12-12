@@ -316,7 +316,7 @@
 
   <p><b>Attachment A: Eclipse Tools PMC Projects</b></p>
   <p>The projects that are run by the tools pmc can be found <a
-  href="http://www.eclipse.org/tools/" target="_top">here</a>.
+  href="http://projects.eclipse.org/projects/tools/" target="_top">here</a>.
   </p>
 
 
