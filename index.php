@@ -31,10 +31,12 @@ $html = <<<EOHTML
 
 <div class='leftnav'>
 &nbsp;
-</dev>
+</div>
 
+<div class='rightcolumn'>
 <div class='sideitem'>
   <img src="EclipseToolsLogos/PNG/elipse-tools-logo128.png" alt="Eclipse Tools" height="128" width="128"> 
+</div>
 </div>
 
 <div id="midcolumn" style="width: 80%">
