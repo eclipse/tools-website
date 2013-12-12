@@ -29,18 +29,13 @@ $pageAuthor		= "Tools PMC";
 # Paste your HTML content between the EOHTML markers!	
 $html = <<<EOHTML
 
-<div class='leftnav'>
+<div id='leftnav'>
 &nbsp;
 </div>
 
-<div class='rightcolumn'>
-<div class='sideitem'>
-  <img src="EclipseToolsLogos/PNG/elipse-tools-logo128.png" alt="Eclipse Tools" height="128" width="128"> 
-</div>
-</div>
 
-<div id="midcolumn" style="width: 80%">
-<div class='homeitem' style="width: 75%">
+<div id="midcolumn">
+<div class='homeitem'>
    <h3>About the Eclipse Tools Project</h3>
       <p>The Eclipse Tools Project is an open source project of the Eclipse Foundation. 
         It is overseen 
@@ -58,6 +53,11 @@ $html = <<<EOHTML
 </div>
 </div>
 
+<div id='rightcolumn'>
+<div class='sideitem'>
+  <img src="EclipseToolsLogos/PNG/elipse-tools-logo128.png" alt="Eclipse Tools" height="128" width="128"> 
+</div>
+</div>
 
 
 
