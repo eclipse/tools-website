@@ -29,17 +29,12 @@
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
 
-<div id="maincontent">
-	<div id="midcolumn" style="width: 80%">
 
-<div class="homeitem" style="width: 97%">
-  <h3>The Eclipse Tools Project – Top Level Project Charter – The Eclipse Foundation</h3>
+<div id="midcolumn">
+<div class="homeitem">
+  <h3>The Eclipse Tools Project - Top Level Project Charter - The Eclipse Foundation</h3>
 
-<table border=0 cellspacing=5 cellpadding=0 width="100%" style='width:100.0%;
- mso-cellspacing:3.7pt;margin-left:8.5pt;mso-padding-alt:1.5pt 1.5pt 1.5pt 1.5pt'>
- <tr>
-  <td style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
-  <p class=MsoNormal><b><span style='font-size:10.0pt;font-family:Arial'>Overview</span></b><span
+  <p><b><span style='font-size:10.0pt;font-family:Arial'>Overview</span></b><span
   style='font-size:10.0pt;font-family:Arial'><br>
   The Eclipse Tools Top Level Project (the &#8220;Eclipse Tools Project&#8221;) is an open
   source software development project dedicated to developing a wide range of exemplary,
@@ -79,18 +74,18 @@
   Management Committee (the &#8220;PMC&#8221;).</p>
   <p>PMCs are expected to ensure that:</p>
   <p style='margin-left:.5in;text-indent:-.25in;mso-list:l1 level1 lfo2;
-  tab-stops:list .5in'><![if !supportLists]><span style='font-family:Symbol'>·<span
+  tab-stops:list .5in'><![if !supportLists]><span style='font-family:Symbol'>ï¿½<span
   style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   </span></span><![endif]>All Projects operate effectively by providing
   leadership to guide the Project&#8217;s overall direction and by removing
   obstacles, solving problems, and resolving conflicts.</p>
   <p style='margin-left:.5in;text-indent:-.25in;mso-list:l1 level1 lfo2;
-  tab-stops:list .5in'><![if !supportLists]><span style='font-family:Symbol'>·<span
+  tab-stops:list .5in'><![if !supportLists]><span style='font-family:Symbol'>ï¿½<span
   style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   </span></span><![endif]>All Project plans, technical documents and reports
   are publicly available</p>
   <p style='margin-left:.5in;text-indent:-.25in;mso-list:l1 level1 lfo2;
-  tab-stops:list .5in'><![if !supportLists]><span style='font-family:Symbol'>·<span
+  tab-stops:list .5in'><![if !supportLists]><span style='font-family:Symbol'>ï¿½<span
   style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   </span></span><![endif]>All Projects operate using open source rules of
   engagement: meritocracy, transparency, and open participation.<span
@@ -359,36 +354,20 @@
   <p>All development technical discussions are conducted using the development
   mailing lists. If discussions are held offline, then a summary must be posted
   to the mailing list to keep the other committers informed.</p>
-  <p style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><b>Licensing</b><br>
+  <p><b>Licensing</b><br>
   All contributions to Projects under this Charter must adhere to the Eclipse
   Foundation Intellectual Property Policy.</p>
-  <div class=MsoNormal align=center style='text-align:center;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'>
-  <hr size=2 width="100%" align=center>
-  </div>
-  <p style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><b>Attachment
-  A: Eclipse Tools PMC Projects</b></p>
-  <p style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'>The
-  projects that are run by the tools pmc can be found <a
-  href="http://www.eclipse.org/tools/" target="_top">here</a>. For a list of
-  new, proposed or future directions the tools PMC plans to go, see the Eclipse
-  Tools Project&#8217;s <a href="http://www.eclipse.org/tools/docs/road.php">roadmap</a>.
+
+  <p><b>Attachment A: Eclipse Tools PMC Projects</b></p>
+  <p>The projects that are run by the tools pmc can be found <a
+  href="http://www.eclipse.org/tools/" target="_top">here</a>.
   </p>
-  <p style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'>&nbsp;</p>
-  </td>
-  <td style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
-  <p class=MsoNormal style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'>&nbsp;</p>
-  </td>
- </tr>
-</table>
 
 
 </div>
-
-		<hr class="clearer" />
-
-	</div>
-
 </div>
+
+
 
 
 EOHTML;
