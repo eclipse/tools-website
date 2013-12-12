@@ -33,6 +33,10 @@ $html = <<<EOHTML
 &nbsp;
 </dev>
 
+<div class='sideitem'>
+  <img src="EclipseToolsLogos/PNG/elipse-tools-logo128.png" alt="Eclipse Tools" height="128" width="128"> 
+</div>
+
 <div id="midcolumn" style="width: 80%">
 <div class='homeitem' style="width: 75%">
    <h3>About the Eclipse Tools Project</h3>
