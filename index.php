@@ -31,34 +31,33 @@ $html = <<<EOHTML
 
 
 <div id="midcolumn">
-<div class='homeitem'>
-   <h3>About the Eclipse Tools Project</h3>
-      <p>The Eclipse Tools Project is an open source project of the Eclipse Foundation. 
-        It is overseen 
-        by a <a href="http://projects.eclipse.org/projects/tools/developers">Project Management Committee</a> (PMC) 
-        but each project is ran relatively independently and overseen by the project's leaders. 
-        The <a href="eclipsetools-charter.php">Eclipse Tools Project Charter</a> 
-        describes the organization of the project, roles and responsibilities 
-        of the participants, and top level development process for the project.
-      </p>
+  <div class='homeitem'>
+     <h3>About the Eclipse Tools Project</h3>
+        <p>The Eclipse Tools Project is an open source project of the Eclipse Foundation. 
+          It is overseen 
+          by a <a href="http://projects.eclipse.org/projects/tools/developers">Project Management Committee</a> (PMC) 
+          but each project is ran relatively independently and overseen by the project's leaders. 
+          The <a href="eclipsetools-charter.php">Eclipse Tools Project Charter</a> 
+          describes the organization of the project, roles and responsibilities 
+          of the participants, and top level development process for the project.
+        </p>
 
-      <p>Please see the <a href="http://projects.eclipse.org/projects/tools">project master list</a>
-        for a list of all the exciting projects under the Tools PMC. Many of the best
-        and most useful projects at Eclipse are here.</p>
+        <p>Please see the <a href="http://projects.eclipse.org/projects/tools">project master list</a>
+          for a list of all the exciting projects under the Tools PMC. Many of the best
+          and most useful projects at Eclipse are here.</p>
 
+  </div>
 </div>
+<div class='rightcolumn'>
+    <div class='sideitem'>
+      <img src="EclipseToolsLogos/PNG/elipse-tools-logo128.png" alt="Eclipse Tools" height="128" width="128" style="float:right" /> 
+    </div>
 </div>
 
-<div class='rightcolumn'><p>
-<div class='sideitem'>
-<img src="EclipseToolsLogos/PNG/elipse-tools-logo128.png" alt="Eclipse Tools" height="128" width="128" style="float:right" /> 
-</div>
-</p>
-</div>
 
 EOHTML;
 
 
 # Generate the web page
-$App->generatePage($theme, $Menu, NULL, $pageAuthor, $pageKeywords, $pageTitle, $html);
+$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
 ?>
