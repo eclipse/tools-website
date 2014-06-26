@@ -19,6 +19,6 @@ $Nav->setLinkList(array());
 # Define your project-wide Nav bars here.
 # Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
 $Nav->addNavSeparator("Tools",   "/tools/");
-$Nav->addCustomNav( "About This Project", "/projects/project_summary.php?projectid=tools", "", 1  );
+$Nav->addCustomNav( "About This Project", "/projects/project_summary.php?projectid=tools", "_self", 1);
 $Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Charter", "/tools/eclipsetools-charter.php",   "_self", 1);
 
