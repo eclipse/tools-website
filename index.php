@@ -53,9 +53,6 @@ $html = <<<EOHTML
   <img src="EclipseToolsLogos/PNG/elipse-tools-logo128.png" alt="Eclipse Tools" height="128" width="128" style="float:right" /> 
 </div>
 
-
-
-
 EOHTML;
 
 
