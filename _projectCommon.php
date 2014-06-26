@@ -2,7 +2,7 @@
 
 # Set the theme for your project's web pages.
 # See the Committer Tools "How Do I" for list of themes
-# https://dev.eclipse.org/committers/ 
+# https://dev.eclipse.org/committers/
 $theme = "solstice";
 
 require_once($_SERVER['DOCUMENT_ROOT'] . "/projects/common/project-info.class.php");
@@ -21,4 +21,4 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/projects/common/project-info.class.ph
 #$Nav->addNavSeparator("Tools",   "/tools/");
 #$Nav->addCustomNav( "About This Project", "/projects/project_summary.php?projectid=tools", "_self", 1);
 #$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Charter", "/tools/eclipsetools-charter.php",   "_self", 1);
-
+$Nav = NULL;

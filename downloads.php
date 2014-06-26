@@ -11,13 +11,13 @@
 	#
 	#
 	#****************************************************************************
-	
+
 	#
-	# Begin: page-specific settings.  Change these. 
+	# Begin: page-specific settings.  Change these.
 	$pageTitle 		= "Eclipse Tools Project";
 	$pageKeywords	= "Eclipse Tools Project";
 	$pageAuthor		= "Tools PMC";
-	
+
 	# Add page-specific Nav bars here
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
 	# $Nav->addNavSeparator("My Page Links", 	"downloads.php");
@@ -25,8 +25,8 @@
 	# $Nav->addCustomNav("Google", "http://www.google.com/", "_blank", 3);
 
 	# End: page-specific settings
-		
-	# Paste your HTML content between the EOHTML markers!	
+
+	# Paste your HTML content between the EOHTML markers!
 	$html = <<<EOHTML
 
 <div class='leftnav'>
@@ -38,10 +38,10 @@
 
 	<div class="homeitem" style="width: 75%">
 		<h3>About the Eclipse Tools Project Downloads</h3>
-      <p>The "Top Level" Tools Project itself has no "downloads", but you can see the 
-      <a href="http://projects.eclipse.org/projects/tools">individual tools projects</a> 
+      <p>The "Top Level" Tools Project itself has no "downloads", but you can see the
+      <a href="http://projects.eclipse.org/projects/tools">individual tools projects</a>
       for what downloads they provide.</p>
-            <p>If this is your first time visiting eclipse.org, you probably want to 
+            <p>If this is your first time visiting eclipse.org, you probably want to
         download a convenient "all in one" package from <a href="http://www.eclipse.org/downloads/">Eclipse Downloads</a>.
       </p>
 	</div>

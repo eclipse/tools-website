@@ -13,7 +13,7 @@
 #****************************************************************************
 
 #
-# Begin: page-specific settings.  Change these. 
+# Begin: page-specific settings.  Change these.
 $pageTitle 		= "Eclipse Tools Project";
 $pageKeywords	= "Eclipse Tools Project";
 $pageAuthor		= "Tools PMC";
@@ -26,19 +26,19 @@ $pageAuthor		= "Tools PMC";
 
 # End: page-specific settings
 
-# Paste your HTML content between the EOHTML markers!	
+# Paste your HTML content between the EOHTML markers!
 $html = <<<EOHTML
 
 
 <div id="midcolumn">
   <div class='homeitem'>
      <h3>About the Eclipse Tools Project</h3>
-        <p>The Eclipse Tools Project is an open source project of the Eclipse Foundation. 
-          It is overseen 
-          by a <a href="http://projects.eclipse.org/projects/tools/developers">Project Management Committee</a> (PMC) 
-          but each project is ran relatively independently and overseen by the project's leaders. 
-          The <a href="eclipsetools-charter.php">Eclipse Tools Project Charter</a> 
-          describes the organization of the project, roles and responsibilities 
+        <p>The Eclipse Tools Project is an open source project of the Eclipse Foundation.
+          It is overseen
+          by a <a href="http://projects.eclipse.org/projects/tools/developers">Project Management Committee</a> (PMC)
+          but each project is ran relatively independently and overseen by the project's leaders.
+          The <a href="eclipsetools-charter.php">Eclipse Tools Project Charter</a>
+          describes the organization of the project, roles and responsibilities
           of the participants, and top level development process for the project.
         </p>
 

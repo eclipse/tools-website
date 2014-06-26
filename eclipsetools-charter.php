@@ -1,4 +1,8 @@
-<?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
+<?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();
+//$Nav	= new Nav();
+$Nav = NULL;
+$Menu 	= new Menu();
+include($App->getProjectCommon());
 
 	#*****************************************************************************
 	#
@@ -11,13 +15,13 @@
 	#
 	#
 	#****************************************************************************
-	
+
 	#
-	# Begin: page-specific settings.  Change these. 
+	# Begin: page-specific settings.  Change these.
 	$pageTitle 		= "Eclipse Tools Project";
 	$pageKeywords	= "Eclipse Tools Project";
 	$pageAuthor		= "Tools PMC";
-	
+
 	# Add page-specific Nav bars here
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
 	# $Nav->addNavSeparator("My Page Links", 	"downloads.php");
@@ -25,8 +29,8 @@
 	# $Nav->addCustomNav("Google", "http://www.google.com/", "_blank", 3);
 
 	# End: page-specific settings
-		
-	# Paste your HTML content between the EOHTML markers!	
+
+	# Paste your HTML content between the EOHTML markers!
 	$html = <<<EOHTML
 
 
@@ -73,17 +77,17 @@
   Management Committee (the &#8220;PMC&#8221;).</p>
   <p>PMCs are expected to ensure that:</p>
   <ul>
-  
+
   <li>All Projects operate effectively by providing
   leadership to guide the Project&#8217;s overall direction and by removing
   obstacles, solving problems, and resolving conflicts.</li>
-  
+
   <li>All Project plans, technical documents and reports
   are publicly available</li>
-  
+
   <li>All Projects operate using open source rules of
-  engagement: meritocracy, transparency, and open participation. 
-  These principles work together. 
+  engagement: meritocracy, transparency, and open participation.
+  These principles work together.
   Anyone can participate in a
   Project.
   This open interaction,
@@ -134,7 +138,7 @@
   members.</p>
   <p>In the unlikely event that a member of the PMC becomes disruptive to the
   process or ceases to contribute for an extended period, the member may be
-  removed by unanimous vote of remaining PMC members. 
+  removed by unanimous vote of remaining PMC members.
   PMC members may resign at any time by delivering notice of
   their resignation to the PMC Lead.</p>
   <p>The PMC is responsible for producing and maintaining the Project Charter.
