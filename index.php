@@ -49,7 +49,7 @@ $html = <<<EOHTML
 </div>
 </div>
 
-<div id='rightcolumn'>
+<div class='rightcolumn'>
 <div class='sideitem'>
   <img src="EclipseToolsLogos/PNG/elipse-tools-logo128.png" alt="Eclipse Tools" height="128" width="128" style="float:right" /> 
 </div>
