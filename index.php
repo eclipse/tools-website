@@ -29,10 +29,6 @@ $pageAuthor		= "Tools PMC";
 # Paste your HTML content between the EOHTML markers!	
 $html = <<<EOHTML
 
-<div id='leftnav'>
-&nbsp;
-</div>
-
 
 <div id="midcolumn">
 <div class='homeitem'>
@@ -55,7 +51,7 @@ $html = <<<EOHTML
 
 <div id='rightcolumn'>
 <div class='sideitem'>
-  <img src="EclipseToolsLogos/PNG/elipse-tools-logo128.png" alt="Eclipse Tools" height="128" width="128" style="float:right"> 
+  <img src="EclipseToolsLogos/PNG/elipse-tools-logo128.png" alt="Eclipse Tools" height="128" width="128" style="float:right" /> 
 </div>
 </div>
 
